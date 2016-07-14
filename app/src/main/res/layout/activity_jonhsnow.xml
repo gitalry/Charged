@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.jamesg.charged.Jonhsnow"
+    android:background="@drawable/whatyouknow">
+
+    <ImageView
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:id="@+id/imageView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:src="@drawable/jonsnow"
+        android:onClick="Jonhsnow"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+
+        android:src="@drawable/cross"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/imageView3"
+        android:onClick="Jonhsnow"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="John Snow"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:onClick="Jonhsnow"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Home"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:gravity="center"
+        android:onClick="Jonhsnow"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Calendar"
+        android:ems="10"
+        android:id="@+id/editText5"
+        android:layout_below="@+id/editText4"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignStart="@+id/editText4"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:onClick="Jonhsnow"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Overview"
+        android:ems="10"
+        android:id="@+id/editoverview"
+        android:layout_below="@+id/editText5"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignStart="@+id/editText5"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:onClick="Jonhsnow"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Groups"
+        android:ems="10"
+        android:id="@+id/editgroups"
+        android:layout_below="@+id/editoverview"
+        android:layout_alignLeft="@+id/editoverview"
+        android:layout_alignStart="@+id/editoverview"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:onClick="Jonhsnow"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="View"
+        android:ems="10"
+        android:id="@+id/editview"
+        android:layout_below="@+id/editText4"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignStart="@+id/editText4"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:onClick="Jonhsnow"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Groups"
+        android:ems="10"
+        android:id="@+id/editText6"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/editgroups"
+        android:layout_alignRight="@+id/editgroups"
+        android:layout_alignEnd="@+id/editgroups"
+        android:onClick="Jonhsnow"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Groups"
+        android:ems="10"
+        android:id="@+id/editText7"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/editText6"
+        android:layout_centerHorizontal="true"
+        android:onClick="Jonhsnow"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Groups"
+        android:ems="10"
+        android:id="@+id/editText8"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/editText7"
+        android:layout_alignLeft="@+id/editText6"
+        android:layout_alignStart="@+id/editText6"
+        android:onClick="Jonhsnow"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Groups"
+        android:ems="10"
+        android:id="@+id/editText9"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/editText8"
+        android:layout_centerHorizontal="true"
+        android:onClick="Jonhsnow"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Groups"
+        android:ems="10"
+        android:id="@+id/editText10"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/editText9"
+        android:layout_alignLeft="@+id/editText9"
+        android:layout_alignStart="@+id/editText9"
+        android:onClick="Jonhsnow"/>
+    /
+        />
+
+</RelativeLayout>
